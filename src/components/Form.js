@@ -17,7 +17,7 @@ export function Form({ onAddItems }) {
     <form className="add-form" onClick={handleSubmit}>
       <input
         type="text"
-        placeholder="What do you want to do...."
+        placeholder="Add a Task to the list...."
         value={taskName}
         onChange={(e) => setTaskName(e.target.value)}
       />

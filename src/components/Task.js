@@ -11,7 +11,7 @@ export function Task({ task, onDeleteTask, onToggle }) {
       <span style={task.done ? { textDecoration: "line-through" } : {}}>
         {task.taskName}
       </span>
-      <button onClick={() => onDeleteTask(task.id)}>🚮</button>
+      <button onClick={() => onDeleteTask(task.id)}>❌</button>
     </li>
   );
 }
